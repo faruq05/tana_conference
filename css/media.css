@@ -1,0 +1,63 @@
+@media (max-width: 1199px) {
+    .section-padding {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-padding {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .gallery img {
+        margin: 8px 8px;
+        width: 175px;
+    }
+
+    .closeBtn {
+        padding: 6px 25px;
+    }
+
+    .prevButton,
+    .nextButton {
+        font-size: 18px;
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 540px) {
+    .section-padding {
+        padding-top: 30px;
+    }
+
+    .gallery img {
+        margin: 8px 6px;
+        width: 155px;
+    }
+
+    .closeBtn {
+        font-size: 18px;
+        border-radius: 15px;
+    }
+
+    .prevButton,
+    .nextButton {
+        font-size: 18px;
+        padding: 6px 20px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .imgPreview {
+        width: 90%;
+        max-height: 50vh;
+        height: auto;
+    }
+
+}
