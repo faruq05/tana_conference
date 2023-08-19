@@ -41,14 +41,20 @@ a {
   padding: 40px 0px;
 }
 
+
+
 /* header starts */
-header {
-  background: url(../images/header-top.jpg) center / 100% no-repeat;
+.header {
+  background: url(../images/header-top.jpg) center / cover no-repeat;
   padding: 20px 0px;
 }
 
 .center-logo img {
   width: 75%;
+}
+
+#header_responsive {
+  display: none;
 }
 
 /* header ends */
@@ -65,7 +71,7 @@ header {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background: rgb(107, 1, 0);
+  background: #6b0100;
   background: linear-gradient(180deg, rgba(107, 1, 0, 1) 0%, rgba(156, 0, 0, 1) 100%);
   border-radius: 20px;
 }
@@ -113,6 +119,56 @@ header {
 
 .nav-link:focus,
 .nav-link:hover {
+  color: var(--cs-wh);
+}
+
+/* offcanvas */
+
+
+.canvas {
+  display: none;
+}
+
+.offcanvas_icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.offcanvas_icon i {
+  background-color: #6b0100;
+  padding: 10px;
+  color: var(--cs-wh);
+  border-radius: 5px;
+}
+
+.offcanvas-body {
+  background: linear-gradient(180deg, rgba(107, 1, 0, 1) 0%, rgba(156, 0, 0, 1) 100%);
+}
+
+.offcanvas-body ul {
+  padding: 0;
+}
+
+.offcanvas-body ul li {
+  list-style: none;
+}
+
+.canv_drop2 {
+  display: block;
+}
+
+.canv_drop2 .dropdown-item {
+  width: 100%;
+}
+
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 1rem 1rem;
+  position: absolute;
+  right: 0;
   color: var(--cs-wh);
 }
 
@@ -177,6 +233,10 @@ header {
   letter-spacing: 2px;
   margin: 0;
   margin-bottom: 25px;
+}
+
+.hero-date p i {
+  color: #FBC003;
 }
 
 .hero_btn {
@@ -256,6 +316,10 @@ hr:not([size]) {
 }
 
 #sponsorsSlide .carousel-indicators {
+  display: none;
+}
+
+.sponsors-slide2 {
   display: none;
 }
 
@@ -664,7 +728,7 @@ hr:not([size]) {
 /* invitee ends */
 
 /* footer starts */
-footer .container {
+.fc {
   padding: 30px 0px;
 }
 
@@ -724,7 +788,7 @@ footer .container {
   background-image: linear-gradient(-90deg, #ffb300 0%, #ff7200 100%);
 }
 
-footer .container-fluid {
+.footer .container-fluid {
   background-color: var(--cs-bg);
 }
 
@@ -1176,11 +1240,11 @@ button:active {
   border-color: #ccc;
 }
 
-.cfrom form input::placeholder{
+.cfrom form input::placeholder {
   font-size: 14px;
 }
 
-.cfrom form textarea::placeholder{
+.cfrom form textarea::placeholder {
   font-size: 14px;
 }
 
@@ -1207,11 +1271,11 @@ button:active {
   color: #fff;
 }
 
-.captch_box input{
-  margin-bottom: 0!important;
+.captch_box input {
+  margin-bottom: 0 !important;
 }
 
-.captch_img i{
+.captch_img i {
   font-size: 20px;
   margin-left: 10px;
   color: var(--cs-txt);

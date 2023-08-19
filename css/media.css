@@ -1,19 +1,448 @@
+@media(max-width:1880px) {
+    .hero_bg_images {
+        
+    }
+
+    .hero_bg_images img:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: -21%;
+        width: 6%;
+      }
+      
+      .hero_bg_images img:nth-child(2) {
+        position: absolute;
+        top: 0;
+        right: -21%;
+        transform: translateX(-2px);
+        width: 6%;
+      }
+      
+      .hero_bg_images img:nth-child(3) {
+        position: absolute;
+        top: 240px;
+        left: -170px;
+      }
+      
+      .hero_bg_images img:nth-child(4) {
+        position: absolute;
+        top: 240px;
+        right: -170px;
+      }
+
+    .title {
+        width: 30%;
+    }
+}
+@media(max-width:1399px) {
+    .hero_bg_images {
+        display: none;
+    }
+
+    .title {
+        width: 30%;
+    }
+}
+
 @media (max-width: 1199px) {
+    #header {
+        display: block;
+    }
+
+    #header_responsive {
+        display: none;
+    }
+
+    .canvas {
+        display: none;
+    }
+
+    .hero_bg_images {
+        display: none;
+    }
+
+    .hero_btn {
+        justify-content: center;
+    }
+
+    .hero_btn a {
+        margin: 5px !important;
+    }
+
+    .reg_info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstnavbar {
+        display: block;
+    }
+
+    .hero-content {
+        margin: 0px 15px;
+        margin-top: 10px;
+        padding: 15px;
+        border-left: 0;
+        height: auto;
+    }
+
+    .sponsors-slide {
+        display: none;
+    }
+
+    .sponsors-slide2 {
+        display: block;
+    }
+
+    .hero-date p {
+        text-align: center;
+    }
+
+    .hero_card {
+        padding-bottom: 150px;
+    }
+
+    .conference-title h2 {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+
+    .conference-person {
+        padding: 20px;
+        border-radius: 15px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 315px;
+    }
+
+    .conference-person-info {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .conference-carousel .owl-dot span {
+        margin: 0px 3px;
+    }
+
+    .invitees-card-icon {
+        padding: 10px;
+        height: 150px;
+    }
+
+    .title {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .section-padding {
+        padding-top: 30px;
+    }
+
+    .shd {
+        font-size: 35px;
+    }
+
+    .col-carousel {
+        margin: 30px 0;
+    }
+
+    .footer-middle {
+        text-align: center;
+    }
+
+
+    .footer-middle a {
+        margin: 5px 0px;
+    }
+
+    footer .container {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .footer-social {
+        padding: 7px 10px;
+        margin: 5px 0px;
+        justify-content: center;
+    }
+
+    .footer-social ul {
+        padding-left: 10px;
+    }
+
+    .cc {
+        text-align: center;
+    }
+
     .section-padding {
         padding-top: 70px;
     }
 }
 
 @media (max-width: 991px) {
+    .c-30 {
+        padding: 0px 15px;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #header_responsive {
+        display: block;
+        background-color: #6b0100;
+        /* background: url(../images/responsive-logo.gif);
+        background-position: top center;
+        background-size: cover;
+        min-height: 20vh; */
+    }
+
+    .canvas {
+        display: block;
+    }
+
+    .hero_bg_images {
+        display: none;
+    }
+
+    .hero_btn {
+        justify-content: space-evenly;
+    }
+
+    .firstnavbar {
+        display: none;
+    }
+
+    .hero-content {
+        margin: 0px 15px;
+        margin-top: 10px;
+        padding: 15px;
+        border-left: 0;
+        height: auto;
+    }
+
+    .sponsors-slide {
+        display: none;
+    }
+
+    .sponsors-slide2 {
+        display: block;
+    }
+
+    .hero-date p {
+        text-align: center;
+    }
+
+    .hero_card {
+        padding-bottom: 110px;
+    }
+
+    .conference-title h2 {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+
+    .conference-person {
+        padding: 20px;
+        border-radius: 15px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 315px;
+    }
+
+    .conference-person-info {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .conference-carousel .owl-dot span {
+        margin: 0px 3px;
+    }
+
+    .invitees-card-icon {
+        padding: 10px;
+        height: 150px;
+    }
+
+    .title {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .section-padding {
+        padding-top: 30px;
+    }
+
+    .shd {
+        font-size: 35px;
+    }
+
+    .col-carousel {
+        margin: 30px 0;
+    }
+
+    .footer-middle {
+        text-align: center;
+    }
+
+
+    .footer-middle a {
+        margin: 5px 0px;
+    }
+
+    footer .container {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .footer-social {
+        padding: 7px 10px;
+        margin: 5px 0px;
+        justify-content: center;
+    }
+
+    .footer-social ul {
+        padding-left: 10px;
+    }
+
+    .cc {
+        text-align: center;
+    }
+
     .section-padding {
         padding-top: 50px;
     }
 }
 
 @media (max-width: 767px) {
-    .title {
-        font-size: 36px;
+    .c-30 {
+        padding: 0px 15px;
     }
+
+    #header {
+        display: none;
+    }
+
+    #header_responsive {
+        display: block;
+        background-color: #6b0100;
+        /* background: url(../images/responsive-logo.gif);
+        background-position: top center;
+        background-size: cover;
+        min-height: 20vh; */
+    }
+
+    .canvas {
+        display: block;
+    }
+
+    .hero_bg_images {
+        display: none;
+    }
+
+    .hero_btn {
+        justify-content: space-evenly;
+    }
+
+    .firstnavbar {
+        display: none;
+    }
+
+    .hero-content {
+        margin: 0px 15px;
+        margin-top: 10px;
+        padding: 15px;
+        border-left: 0;
+        height: auto;
+    }
+
+    .sponsors-slide {
+        display: none;
+    }
+
+    .sponsors-slide2 {
+        display: block;
+    }
+
+    .hero-date p {
+        text-align: center;
+    }
+
+    .hero_card {
+        padding-bottom: 110px;
+    }
+
+    .conference-title h2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .conference-person {
+        /* /* padding: 20px;
+        border-radius: 15px;
+        flex-direction: column; */
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    /* .conference-person-info {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    } */
+
+    .conference-carousel .owl-dot span {
+        margin: 0px 3px;
+    }
+
+
+    .title {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .section-padding {
+        padding-top: 30px;
+    }
+
+    .shd {
+        font-size: 25px;
+    }
+
+    .col-carousel {
+        margin: 30px 0;
+    }
+
+    .footer-middle {
+        text-align: center;
+    }
+
+
+    .footer-middle a {
+        margin: 5px 0px;
+    }
+
+    footer .container {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .footer-social {
+        padding: 7px 10px;
+        margin: 5px 0px;
+        justify-content: center;
+    }
+
+    .footer-social ul {
+        padding-left: 10px;
+    }
+
+    .cc {
+        text-align: center;
+    }
+
 
     .gallery img {
         margin: 8px 8px;
@@ -32,8 +461,124 @@
 }
 
 @media (max-width: 540px) {
+    .c-30 {
+        padding: 0px 15px;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #header_responsive {
+        display: block;
+        background-color: #6b0100;
+    }
+
+    .canvas {
+        display: block;
+    }
+
+    .hero_bg_images {
+        display: none;
+    }
+
+    .hero_btn {
+        justify-content: space-evenly;
+    }
+
+    .firstnavbar {
+        display: none;
+    }
+
+    .hero-content {
+        margin: 0px 15px;
+        margin-top: 10px;
+        padding: 15px;
+        border-left: 0;
+        height: auto;
+    }
+
+    .sponsors-slide {
+        display: none;
+    }
+
+    .sponsors-slide2 {
+        display: block;
+    }
+
+    .hero-date p {
+        text-align: center;
+    }
+
+    .hero_card {
+        padding-bottom: 110px;
+    }
+
+    .conference-title h2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .conference-person {
+        padding: 20px;
+        border-radius: 15px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .conference-person-info {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .conference-carousel .owl-dot span {
+        margin: 0px 3px;
+    }
+
+    .title {
+        font-size: 25px;
+        width: 100%;
+    }
+
     .section-padding {
         padding-top: 30px;
+    }
+
+    .shd {
+        font-size: 25px;
+    }
+
+    .col-carousel {
+        margin: 30px 0;
+    }
+
+    .footer-middle {
+        text-align: center;
+    }
+
+
+    .footer-middle a {
+        margin: 5px 0px;
+    }
+
+    footer .container {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .footer-social {
+        padding: 7px 10px;
+        margin: 5px 0px;
+        justify-content: center;
+    }
+
+    .footer-social ul {
+        padding-left: 10px;
+    }
+
+    .cc {
+        text-align: center;
     }
 
     .gallery img {
