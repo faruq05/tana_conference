@@ -187,6 +187,7 @@ a {
   background-size: contain;
 }
 
+
 .hero_card {
   padding-bottom: 225px;
 }
@@ -1265,7 +1266,7 @@ button:active {
 .cf2 input[type='submit'] {
   background-color: #ff9130;
   border: 0;
-  padding: 10px 55px;
+  padding: 10px 20px;
   border-radius: 50px;
   text-transform: uppercase;
   color: #fff;

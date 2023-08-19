@@ -1,41 +1,48 @@
 @media(max-width:1880px) {
-    .hero_bg_images {
-        
-    }
+    .hero_bg_images {}
 
     .hero_bg_images img:nth-child(1) {
         position: absolute;
         top: 0;
         left: -21%;
         width: 6%;
-      }
-      
-      .hero_bg_images img:nth-child(2) {
+    }
+
+    .hero_bg_images img:nth-child(2) {
         position: absolute;
         top: 0;
-        right: -21%;
+        right: -16%;
         transform: translateX(-2px);
         width: 6%;
-      }
-      
-      .hero_bg_images img:nth-child(3) {
+    }
+
+    .hero_bg_images img:nth-child(3) {
         position: absolute;
         top: 240px;
         left: -170px;
-      }
-      
-      .hero_bg_images img:nth-child(4) {
+    }
+
+    .hero_bg_images img:nth-child(4) {
         position: absolute;
         top: 240px;
         right: -170px;
-      }
+    }
 
     .title {
         width: 30%;
     }
 }
-@media(max-width:1399px) {
+
+@media(max-width:1750px) {
     .hero_bg_images {
+        display: none;
+    }
+
+    .reg_bg_images {
+        display: none;
+    }
+
+    .reg_bg_images2 {
         display: none;
     }
 
@@ -178,6 +185,18 @@
     .section-padding {
         padding-top: 70px;
     }
+
+    .reg_bg_images {
+        display: none;
+    }
+
+    .reg_bg_images2 {
+        display: none;
+    }
+
+    .cf2 {
+        width: 50%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -313,6 +332,28 @@
 
     .section-padding {
         padding-top: 50px;
+    }
+
+    .reg_bg_images {
+        display: none;
+    }
+
+    .reg_bg_images2 {
+        display: none;
+    }
+
+    .venue {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cfrom {
+        padding: 0;
+    }
+
+    .cf2 {
+        width: 50%;
     }
 }
 
@@ -458,6 +499,22 @@
         font-size: 18px;
         padding: 8px 25px;
     }
+
+    .reg_bg_images {
+        display: none;
+    }
+
+    .reg_bg_images2 {
+        display: none;
+    }
+    .cfrom {
+        padding: 0;
+    }
+
+    .cf2 {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 540px) {
@@ -605,4 +662,53 @@
         height: auto;
     }
 
+    .reg_bg_images {
+        display: none;
+    }
+
+    .reg_bg_images2 {
+        display: none;
+    }
+
+    .reg-sponser {
+        border-left: none;
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .regspons_media {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .title_reg {
+        text-align: center;
+    }
+
+    .regpg_status {
+        width: 100%;
+    }
+
+    .regpg_content {
+        min-height: 50vh;
+    }
+
+    .venue {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .applicant_btn {
+        margin-top: 20px;
+    }
+
+    .cfrom {
+        padding: 0;
+    }
+
+    .cf2 {
+        width: 100%;
+    }
 }
