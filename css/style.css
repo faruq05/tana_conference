@@ -57,6 +57,11 @@ a {
   display: none;
 }
 
+.first_logo img{
+  height: 150px;
+  object-fit: contain;
+}
+
 .center-logo img {
   height: 150px;
   object-fit: cover;
