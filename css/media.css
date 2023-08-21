@@ -38,6 +38,11 @@
         display: none;
     }
 
+    .center-logo img {
+        height: 145px;
+        object-fit: cover;
+    }
+
     .reg_bg_images {
         display: none;
     }
@@ -49,6 +54,8 @@
     .title {
         width: 30%;
     }
+
+
 }
 
 @media (max-width: 1199px) {
@@ -58,6 +65,11 @@
 
     #header_responsive {
         display: none;
+    }
+
+    .center-logo img {
+        height: 120px;
+        object-fit: cover;
     }
 
     .canvas {
@@ -209,18 +221,25 @@
         display: block;
     }
 
-    #header img{
-        width: 100%;
+    .first_logo {
+        width: 25%;
     }
 
-    .header_top_images{
-        justify-content: space-between;
+    .center-logo{
+        width: 37.5%;
     }
 
-    /* #header_responsive {
-        display: block;
-        background-color: #6b0100;
-    } */
+    .last_logo{
+        width: 37%.5;
+    }
+
+    .center-logo img{
+        height: auto;
+    }
+
+    .last_logo img{
+        height: auto;
+    }
 
     .canvas {
         display: block;
@@ -367,30 +386,33 @@
         padding: 0px 15px;
     }
 
-    .header_top_images{
-        justify-content: space-between;
-    }
-
-    .header_top_images .col-sm-4{
-        padding: 0;
-    }
-
-    /* .header_top_images .col-sm-4{
-        padding: 0;
-    } */
-
     #header {
         display: block;
     }
 
     #header img {
-        width:100%;
+        width: 100%;
     }
 
-    /* #header_responsive {
-        display: block;
-        background-color: #6b0100;
-    } */
+    .hmg{
+        justify-content: center;
+    }
+
+    .first_logo {
+        width: 35%;
+    }
+
+    .center-logo{
+        width: 65%;
+    }
+
+    .center-logo img {
+        height: auto;
+    }
+
+    .last_logo {
+        display: none;
+    }
 
     .canvas {
         display: block;
@@ -535,13 +557,21 @@
 
 }
 
-@media(max-width:575px){
+@media(max-width:575px) {
     #header {
         display: block;
     }
 
     #header img {
-        width:220px !important;
+        width: 100%;
+    }
+
+    .first_logo {
+        width: 45%;
+    }
+
+    .center-logo img {
+        height: auto;
     }
 }
 
@@ -556,6 +586,14 @@
 
     #header img {
         width: 220px !important;
+    }
+
+    .first_logo {
+        width: 50%;
+    }
+
+    .center-logo img {
+        height: auto;
     }
 
     /* #header_responsive {

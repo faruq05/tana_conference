@@ -15,7 +15,7 @@
   --cs-fil: #2E7A36;
   --cs-pi: #DC2057;
   --cs-yl: #f1aa4e;
-  --cs-red:#880B10;
+  --cs-red: #880B10;
 }
 
 body {
@@ -53,19 +53,16 @@ a {
   padding: 20px 0px;
 }
 
-#header img{
-  width: 100%;
-}
-
-/* .center-logo img {
-  width: 100%!important;
-} */
-
 #header_responsive {
   display: none;
 }
 
-.header_top_images{
+.center-logo img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.header_top_images {
   justify-content: space-between;
 }
 
@@ -756,7 +753,7 @@ hr:not([size]) {
 }
 
 .footer-left a {
-  color: var(--cs-pi)!important;
+  color: var(--cs-pi) !important;
   font-size: 19px;
 }
 
@@ -802,7 +799,7 @@ hr:not([size]) {
 }
 
 .footer .container-fluid {
-  background-color:var(--cs-red);
+  background-color: var(--cs-red);
 }
 
 .footer_cc {}
