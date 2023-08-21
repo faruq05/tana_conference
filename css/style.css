@@ -53,12 +53,20 @@ a {
   padding: 20px 0px;
 }
 
-.center-logo img {
-  width: 87%;
+#header img{
+  width: 100%;
 }
+
+/* .center-logo img {
+  width: 100%!important;
+} */
 
 #header_responsive {
   display: none;
+}
+
+.header_top_images{
+  justify-content: space-between;
 }
 
 /* header ends */
