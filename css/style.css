@@ -613,18 +613,18 @@ hr:not([size]) {
   padding-bottom: 2px;
 }
 
-.tana_conf_img {
+.TFAS_conf_img {
   position: relative;
 }
 
-.conference-carousel .tana_conf .tana_conf_img img {
+.conference-carousel .TFAS_conf .TFAS_conf_img img {
   height: 205px;
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.tana_conf_img::after {
+.TFAS_conf_img::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -635,11 +635,11 @@ hr:not([size]) {
   border-radius: 10px;
 }
 
-.tana_conf_txt {
+.TFAS_conf_txt {
   position: relative;
 }
 
-.tana_conf_txt h4 {
+.TFAS_conf_txt h4 {
   position: absolute;
   bottom: 20px;
   left: 15px;
