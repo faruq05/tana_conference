@@ -63,10 +63,6 @@
         display: block;
     }
 
-    #header_responsive {
-        display: none;
-    }
-
     .center-logo img {
         height: 120px;
         object-fit: cover;
@@ -216,7 +212,6 @@
         padding: 0px 15px;
     }
 
-
     #header {
         display: block;
     }
@@ -225,19 +220,19 @@
         width: 25%;
     }
 
-    .center-logo{
+    .center-logo {
         width: 37.5%;
     }
 
-    .last_logo{
+    .last_logo {
         width: 37%.5;
     }
 
-    .center-logo img{
+    .center-logo img {
         height: auto;
     }
 
-    .last_logo img{
+    .last_logo img {
         height: auto;
     }
 
@@ -394,7 +389,7 @@
         width: 100%;
     }
 
-    .hmg{
+    .hmg {
         justify-content: center;
     }
 
@@ -402,7 +397,7 @@
         width: 35%;
     }
 
-    .center-logo{
+    .center-logo {
         width: 65%;
     }
 
