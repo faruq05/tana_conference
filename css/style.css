@@ -936,7 +936,7 @@ hr:not([size]) {
 /* filter gallery end */
 /* owl carousel */
 .col-carousel {
-  margin: 60px 0;
+  margin: 60px 0 0px 0px;
 }
 
 /* owl nav */
@@ -999,6 +999,12 @@ button:active {
   background-color: var(--cs-wh);
   margin-top: 20px;
   padding: 23px;
+}
+
+.reg_page h5{
+  color: var(--cs-pi);
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .title_reg {
@@ -1303,3 +1309,24 @@ button:active {
   outline: 0;
   box-shadow: none;
 }
+
+/* photo gallery */
+.ph_gal{
+  text-align: center;
+}
+.ph_gal img {
+  height: 205px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ph_gal h4{
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+.vid_gal{
+  margin-bottom: 20px;
+}
+
