@@ -57,7 +57,7 @@ a {
   display: none;
 }
 
-.first_logo img{
+.first_logo img {
   height: 150px;
   object-fit: contain;
 }
@@ -239,6 +239,16 @@ a {
   padding: 30px 15px;
   border-left: 10px solid var(--cs-wh);
   height: 477px;
+}
+
+.hero-content-image {
+  height: 317px;
+}
+
+.hero-content-image img {
+  object-fit: cover;
+  height: 317px;
+  width: 330px;
 }
 
 .hero-date p {
@@ -1001,7 +1011,7 @@ button:active {
   padding: 23px;
 }
 
-.reg_page h5{
+.reg_page h5 {
   color: var(--cs-pi);
   font-size: 20px;
   margin-bottom: 15px;
@@ -1311,9 +1321,10 @@ button:active {
 }
 
 /* photo gallery */
-.ph_gal{
+.ph_gal {
   text-align: center;
 }
+
 .ph_gal img {
   height: 205px;
   width: 100%;
@@ -1321,12 +1332,11 @@ button:active {
   border-radius: 10px;
 }
 
-.ph_gal h4{
+.ph_gal h4 {
   font-size: 15px;
   margin: 10px 0px;
 }
 
-.vid_gal{
+.vid_gal {
   margin-bottom: 20px;
 }
-
