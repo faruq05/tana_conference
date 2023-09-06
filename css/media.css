@@ -60,7 +60,7 @@
 
 @media(max-width:1399px){
     .hero-content-image img{
-        height: 275px;
+        height: 312px;
     }
 }
 
@@ -969,7 +969,7 @@
       
       .hero-content-image img {
         object-fit: cover;
-        height: 230px;
+        height: 248px;
         width: auto;
       }
 
@@ -1140,7 +1140,7 @@
       
       .hero-content-image img {
         object-fit: cover;
-        height: 215px;
+        height: 204px;
         width: auto;
       }
 
@@ -1329,8 +1329,8 @@
       
       .hero-content-image img {
         object-fit: cover;
-        height: 317px;
-        width: 330px;
+        height: 166px;
+        width: auto;
       }
 
     .sponsors-slide {

@@ -234,6 +234,10 @@ a {
   right: -170px;
 }
 
+.banner {
+  display: flex;
+}
+
 .hero-content {
   background-color: var(--cs-vi);
   padding: 30px 15px;
@@ -241,13 +245,20 @@ a {
   height: 477px;
 }
 
-.hero-content-image {
+/* .hero-content-image {
   height: 317px;
+} */
+.carousel-item {
+ overflow: hidden!important;
+}
+
+.carousel-inner{
+  overflow:hidden !important;
 }
 
 .hero-content-image img {
   object-fit: cover;
-  height: 317px;
+  height: 362px;
   width: 330px;
 }
 
