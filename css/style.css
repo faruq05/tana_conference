@@ -236,6 +236,7 @@ a {
 
 .banner {
   display: flex;
+  align-items: center;
 }
 
 .hero-content {
@@ -248,12 +249,8 @@ a {
 /* .hero-content-image {
   height: 317px;
 } */
-.carousel-item {
- overflow: hidden!important;
-}
-
-.carousel-inner{
-  overflow:hidden !important;
+.carousel-item img {
+  width: 100%;
 }
 
 .hero-content-image img {
